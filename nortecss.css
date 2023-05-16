@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(202, 202, 120);
+}
+
+header{
+    height: 20vh;
+    text-align: center;
+    background-image: url(./imagens/fundoheader.png);
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    border: solid black 1px;
+}
+
+/* main{
+    padding: 20px;
+} */
+
+.titulo{
+    font-size: 100px;
+    color: white;
+    display: inline;
+    margin-top: 30px;
+}
+
+.imagemtitulo{
+    margin: -110px -110px -110px -110px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Righteous, Arial, Helvetica, sans-serif;
+}
+
+#padding_bot{
+    padding-bottom: 20px;
+}
+
+p{
+    text-indent: 3ch;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+ul{
+    display: inline;
+}
+
+li{
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(128, 0, 0);
+}
+
+.div_bandeira{
+    text-align: center;
+    padding: 0;
+}
+
+#imagemespacamento{
+    padding-top: 20px;
+}
+
+.div_imagens{
+    display: flex;
+    align-items: center;
+}
+
+#título_mascote{
+    padding-top: 20px;
+}
+
+h1, p{
+    color: rgb(128, 0, 0);
+    text-align: justify;
+}
+
+.sessaoclass{
+    display: flex;
+}
+
+#div_primaria{
+    border-right: 1px dotted black;
+    width: 50%;
+}
+
+#div_secundaria{
+    width: 50%;
+    border-left: 1px dotted black;
+}
+
+div{
+    padding: 30px;
+}
+
+#sectionid{
+    display: flex;
+    background-color: rgb(228, 140, 63);
+}
+
+.psessao2{
+    color: rgb(255, 239, 206);
+    text-indent: 3ch;
+}
+
+#div_imagens_tipicas{
+    text-align: center;
+}
+
+.imagens_tipicas{
+    padding-top: 30px;
+}
+
+.psessao2-2{
+    color: rgb(255, 239, 206);
+    text-indent: 3ch;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.h1sessao2{
+    color: rgb(255, 239, 206);
+    text-align: center;
+}
+
+.h1sessao3{
+    color: rgb(199, 247, 255);
+    text-align: center;
+}
+
+.psessao3{
+    color: rgb(199, 247, 255);
+    text-indent: 3ch;
+}
+
+.psessao3-2{
+    color: rgb(199, 247, 255);
+    text-indent: 0ch;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#sectionid2{
+    background-color: rgb(14, 14, 150);
+}
+
+#footerid{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: rgb(188, 188, 188);
+}
+
+.p_footer{
+    color: black;
+}
